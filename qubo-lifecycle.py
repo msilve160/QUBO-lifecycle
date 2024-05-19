@@ -21,12 +21,14 @@ from dwave.system import DWaveSampler, EmbeddingComposite
 # Create Q matrix
 Q = defaultdict(int)
 
-Q[(1,1)] = -91
-Q[(1,2)] = 72
-Q[(1,3)] = 72
-Q[(2,2)] = -87
-Q[(2,3)] = 72
-Q[(3,3)] = -89
+Q[(1,1)] = -62
+Q[(1,2)] = 48
+Q[(1,3)] = 48
+Q[(2,2)] = -57
+Q[(2,3)] = 48
+Q[(3,3)] = -59
+
+
 
 print("\nQUBO:\n")
 for i in range(1,4):
